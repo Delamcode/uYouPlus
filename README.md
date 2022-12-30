@@ -3,8 +3,8 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20iPadOS%2014.0%2B-yellow" alt="Badge"/>
-    <a href="https://github.com/qnblackcat/uYouPlus/wiki/FAQ"><img src="https://img.shields.io/badge/Question%3F-FAQ-yellow" alt="Badge"></img></a>
-    <a href="https://github.com/qnblackcat/uYouPlus/wiki/FAQ"><img src="https://custom-icon-badges.demolab.com/badge/translate-blue.svg?logo=translate&logoColor=white" alt="Badge"></img></a>
+    <a href="https://github.com/delamcode/uYouPlus/wiki/FAQ"><img src="https://img.shields.io/badge/Question%3F-FAQ-yellow" alt="Badge"></img></a>
+    <a href="https://github.com/delamcode/uYouPlus/wiki/FAQ"><img src="https://custom-icon-badges.demolab.com/badge/translate-blue.svg?logo=translate&logoColor=white" alt="Badge"></img></a>
     
 
     
@@ -17,6 +17,8 @@
     <a href="https://github.com/qnblackcat/uYouPlus/issues"><img src="https://custom-icon-badges.demolab.com/github/issues-raw/qnblackcat/uYouPlus?logo=issue-opened&label=Issues" alt="Badge"></img></a>
 
 </p>
+
+<p> **Thank you to qnblackcat for the original version of uYouPlus!** </p>
 
 <p align="center">
    <img src="https://img.shields.io/github/stars/qnblackcat/uYouPlus?style=social" alt="Badge"/>
@@ -164,7 +166,10 @@
 
 13. **YTShortsProgress**: always enable progress bar and scrubbing in YouTube Shorts (iPhone only).
 
-14. **YTABConfig**: allow user to control over YouTube A/B testing flags.
+14. YTABConfig: REMOVED!
+
+15. **YTSilentVote**
+
 
 </details>
 
@@ -172,13 +177,15 @@
 
 - **uYou**: all the known-issues of uYou are listed [here](https://github.com/MiRO92/uYou-for-YouTube/issues). Make sure you take a look at it before reporting any bugs! ***Also, keep in mind that uYou+ is a modified version of uYou, DO NOT bother MiRO92 with problems unrelated to uYou!!!***
 
-- Issues that related to **uYouPlus** are [here](https://github.com/qnblackcat/uYouPlus/issues/)
+- Issues that related to **uYouPlus** (and only for this fork) are [here](https://github.com/delamcode/uYouPlus/issues/)
 
 # Download
 
-- **uYouPlus** (or you can call it uYou+) requires iOS or iPadOS 14.0 or later. The latest version of **uYouPlus** can be found in the [Release tab](https://github.com/qnblackcat/uYouPlus/releases/latest).
+- **uYouPlus** (or you can call it uYou+) requires iOS or iPadOS 14.0 or later. The latest version of **uYouPlus** can be found in the [Release tab](https://github.com/delamcode/uYouPlus/releases/latest).
 
 - For AltStore user: 
+
+**This is only for the original version of uYouPlus. Not this fork!**
 
   - My official AltStore repo: https://qnblackcat.github.io/AltStore/
 
@@ -213,7 +220,7 @@
 | **YTShortsProgress** | [PoomSmart](https://twitter.com/poomsmart) | 1.0.2 | [✔︎](https://github.com/PoomSmart/YTShortsProgress) |
 | **YouRememberCaption** | [PoomSmart](https://twitter.com/poomsmart) | 1.0.0 | [✔︎](https://poomsmart.github.io/repo/depictions/youremembercaption.html) |
 | **Return YouTube Dislike** | [PoomSmart](https://twitter.com/poomsmart) | 1.10.0 | [✔︎](https://github.com/PoomSmart/Return-YouTube-Dislikes) |
-
+**YTSilentVote**
 </details>
 
 # Installation
