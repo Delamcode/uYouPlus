@@ -168,8 +168,6 @@
 
 14. YTABConfig: REMOVED!
 
-15. **YTSilentVote**
-
 
 </details>
 
@@ -220,7 +218,6 @@
 | **YTShortsProgress** | [PoomSmart](https://twitter.com/poomsmart) | 1.0.2 | [✔︎](https://github.com/PoomSmart/YTShortsProgress) |
 | **YouRememberCaption** | [PoomSmart](https://twitter.com/poomsmart) | 1.0.0 | [✔︎](https://poomsmart.github.io/repo/depictions/youremembercaption.html) |
 | **Return YouTube Dislike** | [PoomSmart](https://twitter.com/poomsmart) | 1.10.0 | [✔︎](https://github.com/PoomSmart/Return-YouTube-Dislikes) |
-**YTSilentVote**
 </details>
 
 # Installation

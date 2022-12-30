@@ -30,7 +30,3 @@
 	path = Extensions
 	url = https://github.com/CokePokes/YoutubeExtensions.git
 	branch = main
-[submodule "Tweaks/YTSilentVote"]
-	path = Tweaks/YTSilentVote
-	url = https://github.com/PoomSmart/YTSilentVote.git
-	branch = main

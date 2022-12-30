@@ -11,7 +11,7 @@ TWEAK_NAME = uYouPlus
 DISPLAY_NAME = YouTube
 BUNDLE_ID = com.google.ios.youtube
  
-uYouPlus_INJECT_DYLIBS = Tweaks/uYou/Library/MobileSubstrate/DynamicLibraries/uYou.dylib .theos/obj/libcolorpicker.dylib .theos/obj/iSponsorBlock.dylib .theos/obj/YTUHD.dylib .theos/obj/YouPiP.dylib .theos/obj/YouTubeDislikesReturn.dylib .theos/obj/YTSilentVote.dylib
+uYouPlus_INJECT_DYLIBS = Tweaks/uYou/Library/MobileSubstrate/DynamicLibraries/uYou.dylib .theos/obj/libcolorpicker.dylib .theos/obj/iSponsorBlock.dylib .theos/obj/YTUHD.dylib .theos/obj/YouPiP.dylib .theos/obj/YouTubeDislikesReturn.dylib 
 uYouPlus_FILES = uYouPlus.xm Settings.xm
 uYouPlus_IPA = tmp/Payload/YouTube.app
 uYouPlus_FRAMEWORKS = UIKit Security
@@ -19,7 +19,7 @@ uYouPlus_CFLAGS = -fobjc-arc -DTWEAK_VERSION=$(PACKAGE_VERSION)
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += Tweaks/Alderis Tweaks/iSponsorBlock Tweaks/YTUHD Tweaks/YouPiP Tweaks/Return-YouTube-Dislikes Tweaks/YTSilentVote
+SUBPROJECTS += Tweaks/Alderis Tweaks/iSponsorBlock Tweaks/YTUHD Tweaks/YouPiP Tweaks/Return-YouTube-Dislikes
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
 before-package::
@@ -28,7 +28,6 @@ before-package::
 	@cp -R Tweaks/YouPiP/layout/Library/Application\ Support/YouPiP.bundle Resources/
 	@cp -R Tweaks/YTUHD/layout/Library/Application\ Support/YTUHD.bundle Resources/
 	@cp -R Tweaks/Return-YouTube-Dislikes/layout/Library/Application\ Support/RYD.bundle Resources/
-	@cp -R Tweaks/YTSilentVote/layout/Library/Application\ Support/YTSV.bundle Resources/
 	@cp -R Tweaks/iSponsorBlock/layout/Library/Application\ Support/iSponsorBlock.bundle Resources/
 	@cp -R Tweaks/uYou/Library/Application\ Support/uYouBundle.bundle Resources/
 	@cp -R lang/uYouPlus.bundle Resources/
