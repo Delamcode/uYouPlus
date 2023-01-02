@@ -3,21 +3,6 @@ description: Make sure you complete the template. Otherwise, it will be closed w
 title: "[Bug] Replace this with your title"
 labels: bug
 body:
-- type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: _Please search to see if an issue already exists for the bug you encountered_
-    options:
-    - label: I have searched the existing issues
-      required: true
-      
-- type: checkboxes
-  attributes:
-    label: Have you read the FAQ?
-    description: _Make sure you visit the [**FAQ**](https://github.com/qnblackcat/uYouPlus/wiki/FAQ) page first!_
-    options:
-    - label: Yes, I read the FAQ
-      required: true
     
 - type: textarea
   attributes:
@@ -26,8 +11,8 @@ body:
     value: |
         - iOS/iPadOS version:
         - Device model:
-        - Sideload tool (AltStore, Sideloadly, TrollStore,...):
-        - The specific version of uYouPlus (**latest** or **newest** is NOT a version number!):
+        - Sideload tool:
+        - Version:
   validations:
     required: true
 
